@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "test-cli": {
+      "type": "http",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-p",
+        "5000:5000",
+        "ghcr.io/mayank-msj-singh/test-cli:latest"
+      ],
+      "url": "http://localhost:5000/mcp"
+    }
+  }
+}
